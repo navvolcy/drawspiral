@@ -1,0 +1,16 @@
+import turtle
+
+def Tripoly(a,sz):
+    length =1
+    for i in range(30):
+        a.forward(length)
+        a.right(sz)
+        length = length + 2
+
+wn = turtle.Screen()
+alex = turtle.Turtle()
+wn.bgcolor("aqua")
+
+Tripoly(alex,120)
+
+wn.exitonclick()
